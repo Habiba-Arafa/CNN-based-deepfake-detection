@@ -19,12 +19,12 @@ Using deep learning model to detect deepfake images by using Convolutional Neura
 
 ### Model Architecture
 
-- **TThe model consists of the following layers:**
+- **The model consists of the following layers:**
 - **Three blocks of Conv2D + Conv2D + MaxPooling2D**
 - **Flatten layer**
 - **Dropout layer (0.5)**
 - **Two Dense layers with ReLU activation**
-- **Final Dense layer with sigmoid activation for binary classification
+- **Final Dense layer with sigmoid activation for binary classification**
 
 
 
