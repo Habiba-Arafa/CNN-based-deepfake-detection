@@ -3,6 +3,9 @@
 ## Overview
 
 Using deep learning model to detect deepfake images by using Convolutional Neural Networks (CNNs). it integrates 3 datasets for training and testing to make model learn robust features achieving high accuracy to distinguish between  real and fake images.
+
+
+
 ---
 
 
@@ -16,7 +19,7 @@ Using deep learning model to detect deepfake images by using Convolutional Neura
 
 ### Model Architecture
 
-- **TThe model consists of the following layers:**T
+- **TThe model consists of the following layers:**
 - **Three blocks of Conv2D + Conv2D + MaxPooling2D**
 - **Flatten layer**
 - **Dropout layer (0.5)**
@@ -26,7 +29,7 @@ Using deep learning model to detect deepfake images by using Convolutional Neura
 
 
 ---
-###Training
+### Model Training
 the dataset was normalized , the model trained on 20 epochs using Adam optimizer also using EarlyStopping and ReduceLROnPlateau callbacks for optimization.
 
 
