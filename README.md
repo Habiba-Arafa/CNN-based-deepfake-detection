@@ -34,13 +34,6 @@ the dataset was normalized , the model trained on 20 epochs using Adam optimizer
 
 
 
----
 
-## Results 
-
-- The model was evaluated on the three 3 datasets :
-- FaceForensics achieved 98.94% , Loss 0.034
-- DFDC Faces achieved 81.87% , Loss 1.30
-- DeepFake and Real Images achieved 71.12% , Loss 1.76
 
 
